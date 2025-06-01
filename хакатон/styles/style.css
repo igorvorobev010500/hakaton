@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jura:wght@300..700&family=Mako&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --footer-header-color: #DABDAB;
+    --background-color: #79553D;
+    --blocks-color: #B39F7A;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    font-family: "Jura", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    background-color: var(--background-color);
+}
+
+header {
+    background-color: var(--footer-header-color);
+    text-align: right;
+    padding: 15px;
+    height: 80px;
+    /*добавила 3 строки*/
+    display: flex;
+    align-items: center;
+}
+
+header a {
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.header-logotype {
+    width: 40px;
+    float: left;
+}
+
+.logo {
+    display: block;
+    margin: 30px auto;
+    width: 40%;
+    /*60% --> 40%*/
+
+}
+
+.container-blocks {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 20px;
+}
+
+.blocks {
+    background-color: var(--blocks-color);
+    color: black;
+    text-align: center;
+    padding: 30px;
+    border-radius: 25px;
+    width: 25%;
+    height: 400px;
+    margin: 40px;
+}
+
+footer {
+    background-color: var(--footer-header-color);
+    height: 600px;
+}
+
+.coment-block {
+    background-color: var(--blocks-color);
+    height: 400px;
+    width: 50%;
+    border-radius: 95px;
+}
+
+
+
+
+/*стили для страницы "О нас" */
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.mini-logo {
+    width: 80px;
+    height: auto;
+    margin: auto;
+    float: left;
+    margin-left: 0;
+}
+
+.user-display {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    font-size: 48px;
+    font-family: "Jura", sans-serif;
+    color: #fff;
+    text-decoration: underline;
+    float: right;
+
+}
+
+.avatar {
+    height: 64px;
+}
+
+.about {
+    border-radius: 95px;
+    width: 1200px;
+    height: auto;
+    background: #b39f7a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    margin-bottom: 20px;
+
+}
+
+h1 {
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 128px;
+    color: #000;
+}
+
+p {
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 32px;
+    color: #000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 50px;
+    text-indent: 25px;
+}
+
+.itog-text {
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 64px;
+    color: #000;
+    text-align: center;
+}
+/*Конец */
